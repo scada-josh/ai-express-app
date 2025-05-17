@@ -2,7 +2,7 @@ import express, {Request, Response} from "express";
 
 const app = express();
 
-app.use("/", (_req: Request, res: Response) => {
+app.use("/api", (_req: Request, res: Response) => {
     res.json({message: "Hello World"});
 })
 
